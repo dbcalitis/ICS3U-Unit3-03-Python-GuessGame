@@ -14,11 +14,11 @@ def main():
     guess_number = int(input("Enter a number as your guess (0-9): "))
     
     # process & output
-    if guess_number == constants.ANSWER:
+    if guess_number == ANSWER:
         print("You guessed correctly!")
     else:
         print("You guessed incorrectly.")
-    print("The correct answer is {0}.".format(constants.ANSWER))
+    print("The correct answer is {0}.".format(ANSWER))
     print("\nDone.")
 
 
