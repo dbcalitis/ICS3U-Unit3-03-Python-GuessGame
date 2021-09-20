@@ -6,13 +6,14 @@
 
 import random
 
+
 def main():
     # This function is the number guessing game
     ANSWER = random.randint(0, 9)
-    
+
     # input
     guess_number = int(input("Enter a number as your guess (0-9): "))
-    
+
     # process & output
     if guess_number == ANSWER:
         print("You guessed correctly!")
