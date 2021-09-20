@@ -4,14 +4,15 @@
 # Created on: Sept 2021
 # This program is the number guessing game
 
-import constants
-
+import random
 
 def main():
     # This function is the number guessing game
+    ANSWER = random.randint(0, 9)
+    
     # input
     guess_number = int(input("Enter a number as your guess (0-9): "))
-
+    
     # process & output
     if guess_number == constants.ANSWER:
         print("You guessed correctly!")
